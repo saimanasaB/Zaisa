@@ -1,0 +1,45 @@
+body 
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.about-section 
+{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+}
+.column 
+{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(211, 7, 7, 0.2);
+    margin: 8px;
+    padding: 0 16px;
+    border-radius: 25px;
+    background-color: pink;
+}
+.button
+{
+    font-family: Algerian;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
+    border-radius: 25px;
+    width: 25%;
+}
+

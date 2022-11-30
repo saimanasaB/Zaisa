@@ -1,0 +1,20 @@
+body
+{
+    padding: 25px;      /*generate space around an element's content*/
+    background-image:url("Images.jpeg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.button 
+{
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;     /*all four paddings are 15px*/
+    text-align: center;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    border-radius: 15px;        /*radius of the element's corner is 15px*/
+    box-shadow: 0 6px black;
+    /*Horizontal offset : 0 and vertical offset: 6px (+ve --> shadow below the box)*/
+}

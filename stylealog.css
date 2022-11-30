@@ -1,0 +1,66 @@
+html,body
+{
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-image: url("whatsapp.jpg");
+}
+  .wrapper{
+    width: 390px;
+    max-width: 390px;   /*Maximum width of an element is 390px*/
+    background: #fff;
+    padding: 50px;      /*generate space around an element's content*/
+    border-radius: 100px; /*radius of the element's corner is 5px*/
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  }
+  .wrapper .title{
+    width: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;  
+  }
+  .form-inner form{
+    width: 100%;
+  }
+  .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;    
+  }
+  .form-inner form .field input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;    
+  }
+   .field input::placeholder{
+    color: #999;
+    font-size: 17px;
+  } 
+  form .btn{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .btn-layer{
+    height: 100%;
+    width: 300%;
+    position: absolute;    
+    background: -webkit-linear-gradient(right, #5e45b2, #4245fa, #457db2, #42f4fa);
+    border-radius: 25px;
+  }
+  form .btn input[type="submit"]
+  {
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+  }

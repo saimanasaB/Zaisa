@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+        <link rel="stylesheet" href="styleslog.css">
+        <title>ZPay</title>
+        <style>
+            html,body
+            {
+                background-image: url("zpay.jpg");
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="title">
+                ZPay
+            </div>
+            <div class="form-inner">
+                <form name="form1" action="Zpayaction.php">
+                    <div class="field">
+                        <input type="text" placeholder="Username" name="username" pattern="[a-zA-Z]+" title="XXX XXX" required><br><br>
+                        <input type="password" placeholder="Password" name="pass" required><br><br>
+                        <input type="text" placeholder="Amount" name="amount" pattern="[0-9]+" title="Numbers" required><br><br>
+                        <input type="text" placeholder="Transfer to" name="to" pattern="[a-zA-Z ]+" title="XXX XXX" required><br><br>
+                        <input type="text" placeholder="Email" name="mail" pattern="[A-Za-z.0-9]{30}[@][[A-Za-z.]{20}+" title="mailname@..." required>
+                    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Pay">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>    
+</html>
+

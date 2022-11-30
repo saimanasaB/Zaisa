@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+        <link rel="stylesheet" href="styleslog.css">
+        <title>Payment</title>
+        <style>
+            html,body
+            {
+                background-image: url("credit.jpg");
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="title">
+                Payment
+            </div>
+            <div class="form-inner">
+                <form name="form1" action="medicine1payaction.php">
+                    <div class="field">
+                        <input type="text" placeholder="Username" name="username" pattern="[a-zA-Z ]+" title="XXX XXX" required><br><br>
+                        <input type="text" placeholder="Account Number" name="accountno" pattern="[0-9]{4}" title="XXXX" required><br><br>
+                        <input type="password" placeholder="CVV number" name="cvv" pattern="[0-9]{3}" title="XXX" required><br><br>
+                        <input type="number" placeholder="Expiry Month" name="exdate" min=1 maximum=12 required><br><br>
+                        <input type="number" placeholder="Expiry Year" name="exyear" min=2022  maximum=2030  required><br><br>
+                        <input type="number" placeholder="Quantity" name="quantity" min=1 maximum=20 required><br><br>
+                        <input type="text" placeholder="Amount" name="amount" required><br><br>
+                        <input type="text" placeholder="Address" name="address" required><br><br>
+                        <input type="text" placeholder="Phone number" name="phone" pattern="[0-9]{10}" title="XXXXXXXXXX" required><br><br>
+                        <input type="text" placeholder="Email" name="mail" pattern="[A-Za-z.0-9]{30}[@][[A-Za-z.]{20}+" required>
+                    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Pay">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>    
+</html>
+
